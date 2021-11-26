@@ -1,6 +1,6 @@
 import React from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { BsGrid3X3GapFill } from "react-icons/bs";
+import { CgMenuGridR } from "react-icons/cg";
 const Topbar = () => {
   return (
     <div className="topcon">
@@ -9,7 +9,7 @@ const Topbar = () => {
         <span className="topspan">CleoEMR</span>
       </div>
       <div className="con2">
-        <BsGrid3X3GapFill />
+        <CgMenuGridR />
         <img
           className="small-avatar"
           src="https://images.pexels.com/photos/8976513/pexels-photo-8976513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
