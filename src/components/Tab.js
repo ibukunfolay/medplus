@@ -109,6 +109,32 @@ const Tab = () => {
               </datalist>
             </div>
           </div>
+          <div>
+            <div class="pretty p-default p-thick base1">
+              <input type="checkbox" />
+              <div class="state">
+                <label>High Priority</label>
+              </div>
+            </div>
+            <div class="pretty p-default p-thick base1">
+              <input type="checkbox" />
+              <div class="state  p-primary">
+                <label>Cancelled</label>
+              </div>
+            </div>
+            <div class="pretty  p-default p-fill base1">
+              <input type="checkbox" disabled />
+              <div class="state p-info">
+                <label>Previous Order</label>
+              </div>
+            </div>
+            <div class="pretty p-default p-fill base1">
+              <input type="checkbox" disabled />
+              <div class="state ">
+                <label>In-house</label>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="mennu">
           <Menu />
