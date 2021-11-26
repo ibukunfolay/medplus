@@ -243,9 +243,9 @@ li {
 
 .cards {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   padding: 1em 0.5em;
-  /* width: 100%; */
+  width: 100%;
 }
 
 .card1 {
@@ -745,17 +745,16 @@ input::-webkit-calendar-picker-indicator {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 100%;
-    overflow: hidden;
+    /* width: 100%; */
+    /* overflow: hidden; */
+    padding: 0;
   }
 
   .card1 {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     width: 100%;
     height: auto;
-    margin: 0;
+    margin-right: 0;
     margin-bottom: 1em;
   }
 
@@ -789,7 +788,7 @@ input::-webkit-calendar-picker-indicator {
 
   .box-con {
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
@@ -810,11 +809,9 @@ input::-webkit-calendar-picker-indicator {
 
   .menu-con {
     display: flex;
-    height: auto;
-    width: 100%;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: space-around; */
+    align-items: flex-start;
   }
 
   .top {

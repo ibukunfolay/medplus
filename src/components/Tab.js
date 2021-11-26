@@ -110,7 +110,7 @@ const Tab = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="mennu">
           <Menu />
         </div>
       </div>
