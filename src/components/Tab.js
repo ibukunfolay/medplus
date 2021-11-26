@@ -112,7 +112,7 @@ const Tab = () => {
           <div>
             <div class="pretty p-default p-thick base1">
               <input type="checkbox" />
-              <div class="state">
+              <div class="state  p-primary">
                 <label>High Priority</label>
               </div>
             </div>

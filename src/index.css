@@ -89,7 +89,7 @@ li {
 .list-elements span {
   font-family: poppins;
   font-weight: 100;
-  font-size: 12px;
+  font-size: 9px;
 }
 
 @media screen and (max-width: 760px) {
@@ -245,8 +245,9 @@ li {
 .cards {
   display: flex;
   justify-content: space-between;
-  /* padding: 1em 0.5em; */
+  /* padding: 0 0.2em; */
   width: 100%;
+  margin-top: 1em;
 }
 
 .card1 {
@@ -255,7 +256,8 @@ li {
   width: 67%;
   min-height: auto;
   background: transparent;
-  margin-right: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   /* border: 1px solid black; */
@@ -324,7 +326,7 @@ li {
 .box-con {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  width: 90%;
   justify-content: space-between;
   /* align-items: center; */
 }
