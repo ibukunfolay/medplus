@@ -5,9 +5,9 @@ import Main from "./components/Main";
 
 const App = () => {
   return (
-    <div>
+    <div style={{ display: "flex", width: "100%", flexDirection: "column" }}>
       <Topbar />
-      <div style={{ display: "flex", width: "100%" }}>
+      <div className="main-con">
         <Sidebar />
         <Main />
       </div>
