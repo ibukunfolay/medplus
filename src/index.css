@@ -445,9 +445,8 @@ input::-webkit-calendar-picker-indicator {
   justify-content: space-between;
   align-items: center;
   height: auto;
-  width: 90%;
+  width: 80%;
   padding: 0.5em;
-  border-bottom: 1px solid #c7c7c7;
   background-color: #fff;
 }
 
@@ -474,6 +473,7 @@ input::-webkit-calendar-picker-indicator {
 }
 
 .lipid {
+  border-top: 1px solid #c7c7c7;
   padding: 1em;
   font-size: 12px;
   font-family: poppins;
